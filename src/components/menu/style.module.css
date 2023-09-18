@@ -1,0 +1,70 @@
+.nav {
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 2%;
+    align-items: center;
+}
+.pokeball {
+    width: 50px;
+    height: 50px;
+}
+
+.btnMenu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    width: 10%;
+    height: 60%;
+    border-radius: 25px;
+    border-style: none;
+    cursor: pointer;
+}
+.span {
+    margin-top: 2px;
+    color: rgb(235, 235, 134);
+}
+
+
+.descriptionPage {
+    height: 30px;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: rgb(29, 29, 29);
+}
+
+@media (min-width: 760px) and (max-width: 990px) {
+
+    .btnMenu {
+        font-size: 10px;
+    }
+}
+
+@media (min-width: 550px) and (max-width: 760px) {
+
+    .btnMenu {
+        font-size: 15px;
+        width: 20%;
+    }
+}
+
+@media (min-width: 370px) and (max-width: 550px) {
+
+    .btnMenu {
+        font-size: 10px;
+        width: 20%;
+    }
+}
+
+@media (min-width: 250px) and (max-width: 370px) {
+
+    .btnMenu {
+        font-size: 10px;
+        width: 30%;
+    }
+}
